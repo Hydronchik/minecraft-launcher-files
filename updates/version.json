@@ -1,51 +1,182 @@
 {
   "minecraftVersion": "1.20.1",
   "forgeVersion": "47.2.0",
-
   "mods": [
-    { "file": "Connector-1.0.0-beta.48+1.20.1.jar", "sha1": "" },
-    { "file": "CustomSkinLoader_ForgeV2-14.28.jar", "sha1": "" },
-    { "file": "EuphoriaPatcher-1.7.3-r5.6.1-neoforge1.20.1.jar", "sha1": "" },
-    { "file": "FirmaCivilization-1.20.1-1.0.9.jar", "sha1": "" },
-    { "file": "Firmalife-1.20.1-2.1.27.jar", "sha1": "" },
-    { "file": "FpsReducer2-forge-1.20-2.5.jar", "sha1": "" },
-    { "file": "ImmersiveEngineering-1.20.1-10.1.0-171.jar", "sha1": "" },
-    { "file": "Jade-1.20.1-Forge-11.13.2.jar", "sha1": "" },
-    { "file": "ModernUI-Forge-1.20.1-3.12.0.1-universal.jar", "sha1": "" },
-    { "file": "Patchouli-1.20.1-85-FORGE.jar", "sha1": "" },
-    { "file": "TFC-IE-Crossover-1.20.1-1.2.1.jar", "sha1": "" },
-    { "file": "TFCAstikorCarts-1.20.1-1.1.9.jar", "sha1": "" },
-    { "file": "TFCWeather-1.20.1-1.6.12.jar", "sha1": "" },
-    { "file": "TerraFirmaCraft-Forge-1.20.1-3.2.21.jar", "sha1": "" },
-    { "file": "WI-Zoom-1.5-MC1.20.1-Forge.jar", "sha1": "" },
-    { "file": "afc-1.0.18-1.20.1.jar", "sha1": "" },
-    { "file": "alekiNiftyShips-FORGE-1.20.1-1.0.14.jar", "sha1": "" },
-    { "file": "antique-atlas-3.1.2+1.20.jar", "sha1": "" },
-    { "file": "astikorcarts-1.20.1-1.1.8.jar", "sha1": "" },
-    { "file": "beneath-1.20.1-1.0.6.jar", "sha1": "" },
-    { "file": "chloride-FORGE-mc1.20.1-v1.5.0.jar.disabled", "sha1": "" },
-    { "file": "coroutil-forge-1.20.1-1.3.7.jar", "sha1": "" },
-    { "file": "durabilitytooltip-1.1.4-forge-mc1.20.jar", "sha1": "" },
-    { "file": "embeddium-0.3.31+mc1.20.1.jar", "sha1": "" },
-    { "file": "entity_model_features_1.20.1-forge-3.0.17.jar", "sha1": "" },
-    { "file": "entity_texture_features_1.20.1-forge-7.0.13.jar", "sha1": "" },
-    { "file": "fabric-api-0.92.2+1.11.11+1.20.1.jar", "sha1": "" },
-    { "file": "ferritecore-6.0.1-forge.jar", "sha1": "" },
-    { "file": "fzzy_config-0.7.6+1.20.1+forge.jar", "sha1": "" },
-    { "file": "jei-1.20.1-forge-15.20.0.129.jar", "sha1": "" },
-    { "file": "kotlinforforge-4.12.0-all.jar", "sha1": "" },
-    { "file": "modernfix-forge-5.18.6+mc1.20.1.jar", "sha1": "" },
-    { "file": "oculus-mc1.20.1-1.8.0.jar", "sha1": "" },
-    { "file": "packetfixer-3.3.1-1.18-1.20.4-merged.jar", "sha1": "" },
-    { "file": "particle_core-0.3.3+1.20.1+forge.jar", "sha1": "" },
-    { "file": "rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar", "sha1": "" },
-    { "file": "soundphysics-forge-1.20.1-1.3.0.jar", "sha1": "" },
-    { "file": "supermartijn642configlib-1.1.7-forge-mc1.20.jar", "sha1": "" },
-    { "file": "surveyor-1.2.1+1.20.jar", "sha1": "" },
-    { "file": "tfc_atlas-1.0.0-forge-1.20.1.jar", "sha1": "" },
-    { "file": "tfcivilization_atlases-1.1.0-forge-1.20.1.jar", "sha1": "" },
-    { "file": "voicechat-forge-1.20.1-2.4.32.jar", "sha1": "" },
-    { "file": "watut-forge-1.20.1-1.2.3.jar", "sha1": "" },
-    { "file": "weather2-1.20.1-2.8.3.jar", "sha1": "" }
+    {
+      "file": "Connector-1.0.0-beta.48+1.20.1.jar",
+      "sha1": "3c9682a67439519f731a7a9602241366af7f9fcc"
+    },
+    {
+      "file": "CustomSkinLoader_ForgeV2-14.28.jar",
+      "sha1": "c7e87169bd8b59a9414620dd0fd63ca5a17c235d"
+    },
+    {
+      "file": "EuphoriaPatcher-1.7.3-r5.6.1-neoforge1.20.1.jar",
+      "sha1": "9f3f48fd8a7e2d15cbd9be6010ad74de7bfa466a"
+    },
+    {
+      "file": "FirmaCivilization-1.20.1-1.0.9.jar",
+      "sha1": "41e134f5dd02cc5030229c972b474a2e69793233"
+    },
+    {
+      "file": "Firmalife-1.20.1-2.1.27.jar",
+      "sha1": "94075d059dcfc562db2c5199bbe2020b6dcc44d5"
+    },
+    {
+      "file": "FpsReducer2-forge-1.20-2.5.jar",
+      "sha1": "d7d5af20faa2bd7012aa2d34b5804324aa273092"
+    },
+    {
+      "file": "ImmersiveEngineering-1.20.1-10.1.0-171.jar",
+      "sha1": "2890867c3aa98dc5e6dc44c9c00b245afd84a679"
+    },
+    {
+      "file": "Jade-1.20.1-Forge-11.13.2.jar",
+      "sha1": "1997e5fe2db3a0575ca79bfe4720019f01fd2b8c"
+    },
+    {
+      "file": "ModernUI-Forge-1.20.1-3.12.0.1-universal.jar",
+      "sha1": "fcebe51e3c2ca34793f9b132fa05b5494ffc76a4"
+    },
+    {
+      "file": "Patchouli-1.20.1-85-FORGE.jar",
+      "sha1": "d4614507d6e4c7cb464bba5eca891978272062ef"
+    },
+    {
+      "file": "TFC-IE-Crossover-1.20.1-1.2.1.jar",
+      "sha1": "b4a1fdea2ed9a66eab03813949271b62c3ace7d5"
+    },
+    {
+      "file": "TFCAstikorCarts-1.20.1-1.1.9.jar",
+      "sha1": "1945f2c9ba727faa25cf8595853822312de66c9b"
+    },
+    {
+      "file": "TFCWeather-1.20.1-1.6.12.jar",
+      "sha1": "86ee015623327661a525b26c6a42e8d29f0376ab"
+    },
+    {
+      "file": "TerraFirmaCraft-Forge-1.20.1-3.2.21.jar",
+      "sha1": "3edecb24918907d3a358e8688977df8f72855d17"
+    },
+    {
+      "file": "WI-Zoom-1.5-MC1.20.1-Forge.jar",
+      "sha1": "de100712cf2b7187a23f5cd726b93e576592979b"
+    },
+    {
+      "file": "afc-1.0.18-1.20.1.jar",
+      "sha1": "c2cfffcce7ff7c1c978326a674389fcbdfb61fd4"
+    },
+    {
+      "file": "alekiNiftyShips-FORGE-1.20.1-1.0.14.jar",
+      "sha1": "c42aaab43cd524c45c4065996cc06b9b48c5682a"
+    },
+    {
+      "file": "antique-atlas-3.1.2+1.20.jar",
+      "sha1": "0416003351b48bb2d39d1d2c1afde9780796ee12"
+    },
+    {
+      "file": "astikorcarts-1.20.1-1.1.8.jar",
+      "sha1": "49a8ac1c23282fe86420f0b4527e522421f2f692"
+    },
+    {
+      "file": "beneath-1.20.1-1.0.6.jar",
+      "sha1": "fc9208fa33d9f6868ab123dc0a73049fe3805201"
+    },
+    {
+      "file": "chloride-FORGE-mc1.20.1-v1.5.0.jar.disabled",
+      "sha1": "b9a065e36fc6b23b3e09cb01fa47a3ab35442a97"
+    },
+    {
+      "file": "coroutil-forge-1.20.1-1.3.7.jar",
+      "sha1": "7f5f0b62a638b6053c95919cbe8c2bea2e0c93d0"
+    },
+    {
+      "file": "durabilitytooltip-1.1.4-forge-mc1.20.jar",
+      "sha1": "4094bbeee8d596f50923c7e783deaaf168b76516"
+    },
+    {
+      "file": "embeddium-0.3.31+mc1.20.1.jar",
+      "sha1": "bb2fa8f3e493af16af9160d049f96c614a1faf2f"
+    },
+    {
+      "file": "entity_model_features_1.20.1-forge-3.0.17.jar",
+      "sha1": "cb439f4b8b34be0dcaf28d4ff373e932550581d0"
+    },
+    {
+      "file": "entity_texture_features_1.20.1-forge-7.0.13.jar",
+      "sha1": "50768b77225043249df386abf594c95bd56ad792"
+    },
+    {
+      "file": "fabric-api-0.92.2+1.11.11+1.20.1.jar",
+      "sha1": "88d7d65c27ea7999e4f5b040ae1a944c363dc1ce"
+    },
+    {
+      "file": "ferritecore-6.0.1-forge.jar",
+      "sha1": "417fb6ce8f52abf40bd9d0390371790f9576f8ba"
+    },
+    {
+      "file": "fzzy_config-0.7.6+1.20.1+forge.jar",
+      "sha1": "2e9ca1c5f028c251e1bc18b9ebaa06d401c8e624"
+    },
+    {
+      "file": "jei-1.20.1-forge-15.20.0.129.jar",
+      "sha1": "eba88424bd28c8bce0e49da13ada71cd47148b47"
+    },
+    {
+      "file": "kotlinforforge-4.12.0-all.jar",
+      "sha1": "962fdb760409d6d71cbf079235f1ca94e3863a22"
+    },
+    {
+      "file": "modernfix-forge-5.18.6+mc1.20.1.jar",
+      "sha1": "ace6243d0985d1cb56a6156e0f1903dd72542586"
+    },
+    {
+      "file": "oculus-mc1.20.1-1.8.0.jar",
+      "sha1": "984f774e71790deaec674c7587bd24e0711871b2"
+    },
+    {
+      "file": "packetfixer-3.3.1-1.18-1.20.4-merged.jar",
+      "sha1": "0bef29023c8cadb2934d78a8b0066b49d4460974"
+    },
+    {
+      "file": "particle_core-0.3.3+1.20.1+forge.jar",
+      "sha1": "1da5744853d17979033d5ee3cd4251b8340ea7be"
+    },
+    {
+      "file": "rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar",
+      "sha1": "bb422d5626bf69841e444a3e545c8e71b6928cf8"
+    },
+    {
+      "file": "soundphysics-forge-1.20.1-1.3.0.jar",
+      "sha1": "ca8813fae5d360a3ceb6ebf0c6b640c3494d8f02"
+    },
+    {
+      "file": "supermartijn642configlib-1.1.7-forge-mc1.20.jar",
+      "sha1": "8fd701b766f5cad08ec75e632e2bade0552a421e"
+    },
+    {
+      "file": "surveyor-1.2.1+1.20.jar",
+      "sha1": "532237cb4c91a1e36cea43b3de2582b2ca7d72c9"
+    },
+    {
+      "file": "tfc_atlas-1.0.0-forge-1.20.1.jar",
+      "sha1": "a9281f4b26861a2e01ae6b2cee6ed600d6195166"
+    },
+    {
+      "file": "tfcivilization_atlases-1.1.0-forge-1.20.1.jar",
+      "sha1": "f6b5002d3aa1b1e2df36405b1b67a75da894e3b6"
+    },
+    {
+      "file": "voicechat-forge-1.20.1-2.4.32.jar",
+      "sha1": "0ddc174a52973036e5fcfd2fb72686b3b18aed3f"
+    },
+    {
+      "file": "watut-forge-1.20.1-1.2.3.jar",
+      "sha1": "d376debf1f96f37dbedf56919baeb7da2dcef9ab"
+    },
+    {
+      "file": "weather2-1.20.1-2.8.3.jar",
+      "sha1": "4ec7a372945874dd734a20fa61574f08d2b6763a"
+    }
   ]
 }
