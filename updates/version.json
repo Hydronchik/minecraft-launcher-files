@@ -178,5 +178,12 @@
       "file": "weather2-1.20.1-2.8.3.jar",
       "sha1": "4ec7a372945874dd734a20fa61574f08d2b6763a"
     }
+  ],
+  "config": [],
+  "libraries": [
+    {
+      "file": "forge.jar",
+      "sha1": "0c3ec587af28e5a785c0b4a7b8a30f9a8f78f838"
+    }
   ]
 }
